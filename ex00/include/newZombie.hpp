@@ -1,25 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Main.cpp                                           :+:      :+:    :+:   */
+/*   newZombie.hpp                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/11 12:48:07 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/11 13:19:59 by nrobinso         ###   ########.fr       */
+/*   Created: 2024/12/11 13:12:15 by nrobinso          #+#    #+#             */
+/*   Updated: 2024/12/11 13:18:23 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Zombie.hpp"
+#pragma once
+#ifndef NEWZOMBIE_HPP
+#define NEWZOMBIE_HPP
 
 
 
 
-int main(void) {
-
-
-
-
-	return (0);
-}
-
+#endif

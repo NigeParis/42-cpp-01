@@ -1,7 +1,7 @@
 ###############################################################################
 ## ARGUMENTS
 
-NAME= 
+NAME= zombie
 CFLAGS=  -Wall -Wextra -Werror -std=c++98
 
 SRCS=$(addprefix $(SRC_DIR), $(SRC))
@@ -16,8 +16,8 @@ CC=c++
 
 
 SRC_DIR = src/
-SRC = 
-
+SRC = Main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+ 
 OBJ_DIR = build/
 
 ###############################################################################
