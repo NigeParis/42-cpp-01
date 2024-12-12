@@ -1,7 +1,7 @@
 ###############################################################################
 ## ARGUMENTS
 
-NAME= zombie
+NAME= attack
 CFLAGS=  -Wall -Wextra -Werror -std=c++98
 
 SRCS=$(addprefix $(SRC_DIR), $(SRC))
@@ -16,7 +16,7 @@ CC=c++
 
 
 SRC_DIR = src/
-SRC = Main.cpp
+SRC = Main.cpp Weapon.cpp
  
 OBJ_DIR = build/
 
