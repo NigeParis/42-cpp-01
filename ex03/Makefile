@@ -16,7 +16,7 @@ CC=c++
 
 
 SRC_DIR = src/
-SRC = Main.cpp Weapon.cpp
+SRC = Main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
  
 OBJ_DIR = build/
 

@@ -6,23 +6,29 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/12 16:29:22 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/12 16:29:26 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/12 18:51:54 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#pragma once;
-#ifndef HumanA
-#define HumanA
+#pragma once
+#ifndef HUMANB_HPP
+#define HUMANB_HPP
+#include "Weapon.hpp"
 
 
 
-class HumainB {
+class HumanB {
 
-
-	private:
 
 	public:
-
+			HumanB(std::string name);
+			~HumanB(void);
+			void attack(void);
+			void setWeapon(Weapon *club);
+			
+	private:
+			Weapon *_weapon;
+			std::string _name;
 };
 
 

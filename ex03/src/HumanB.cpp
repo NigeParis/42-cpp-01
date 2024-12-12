@@ -1,36 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Weapon.cpp                                         :+:      :+:    :+:   */
+/*   HumanB.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/12 14:41:16 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/12 18:07:54 by nrobinso         ###   ########.fr       */
+/*   Created: 2024/12/12 16:33:09 by nrobinso          #+#    #+#             */
+/*   Updated: 2024/12/12 18:55:40 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "HumanB.hpp"
 #include "Weapon.hpp"
 
 
-Weapon::Weapon( std::string str ) {
-	_type = str;	
-};
-
-
-Weapon::~Weapon( void ) {
-};
-
-void Weapon::setType(std::string newType) {
-
-	this->_type = newType;
+	HumanB::HumanB(std::string name) : _weapon(NULL) {   // : _weapon(club) default
+		
+		this->_name = name;
+	};
 	
-};
+	HumanB::~HumanB(void) {
 
+		
+	};
 
-std::string&  Weapon::getType(void){
+	void HumanB::attack(void) {
+		
+		if (!_weapon)
+			return ;
+		std::cout << this->_name << " attacks with their " << this->_weapon->getType() << std::endl;
+		
+	};
 
-	std::string& output = _type;
-	
-	return (output);	
-};
+	void HumanB::setWeapon(Weapon *club) {
+
+		_weapon->setType(club->getType());
+		
+	};
