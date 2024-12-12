@@ -1,21 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   newZombie.cpp                                      :+:      :+:    :+:   */
+/*   Main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/11 13:09:59 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/12 09:01:27 by nrobinso         ###   ########.fr       */
+/*   Created: 2024/12/11 12:48:07 by nrobinso          #+#    #+#             */
+/*   Updated: 2024/12/12 13:46:54 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Zombie.hpp"
 
-Zombie* newZombie( std::string name ) {
-
-	Zombie* output = new Zombie(name);
-	return (output);
-};
+int main(void) {
 
 
+
+
+	return (0);	
+}

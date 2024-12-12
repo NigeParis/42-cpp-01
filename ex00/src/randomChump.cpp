@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 13:11:10 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/11 16:46:27 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/12 09:00:01 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,6 @@
 
 void randomChump( std::string name ) {
 	
-	Zombie(name).announce();
+	Zombie zombie(name);
+	zombie.announce();
 };
