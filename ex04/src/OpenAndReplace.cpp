@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/13 10:03:55 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/13 13:26:51 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/13 13:33:18 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,13 +27,13 @@ int openfile(std::ifstream *readfile, std::string file) {
 
 
 
-int outputfile(std::ofstream *writefile, std::string file) {
+int outputfile(std::ofstream *writefile, std::string file, std::string dotname) {
 
 	std::string filename;
 
 
 	file = file.substr(0, file.find_last_of("."));
-	filename = file + ".replace";
+	filename = file + dotname;
 	
 	writefile->open(filename.c_str());
 	if (writefile->is_open()) {
