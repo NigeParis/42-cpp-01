@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 12:48:07 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/13 09:54:37 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/13 10:12:41 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,6 @@ int main()
 		club.setType("some other type of club");
 		jim.attack();
 	}
-	//toTestErrors();
+	toTestErrors();
 	return 0;
 }
