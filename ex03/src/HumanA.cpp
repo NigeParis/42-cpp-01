@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/12 16:33:09 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/13 09:32:11 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/13 09:48:50 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,8 @@
 
 	void HumanA::attack(void) {
 
+		if ((this->_name.empty()) || (this->_weapon.getType().empty()))
+			return ;
 		std::cout << this->_name;
 		std::cout << " attacks with their ";
 		std::cout << this->_weapon.getType();
