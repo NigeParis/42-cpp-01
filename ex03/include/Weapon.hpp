@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/12 14:34:55 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/12 16:26:06 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/13 09:32:59 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
 #include <string>
 
 class Weapon {
-
 
 	public:
 	

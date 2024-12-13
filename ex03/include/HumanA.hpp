@@ -6,19 +6,16 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/12 15:32:26 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/12 18:23:49 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/13 09:32:50 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 #ifndef HUMANA_HPP
 #define HUMANA_HPP
-
 #include "Weapon.hpp"
 
-
 class HumanA {
-
 
 	public:
 			HumanA(std::string name, Weapon &club);
@@ -31,6 +28,5 @@ class HumanA {
 			std::string _name;
 
 };
-
 
 #endif

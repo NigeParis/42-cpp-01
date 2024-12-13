@@ -6,12 +6,11 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/12 16:33:09 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/12 18:36:31 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/13 09:32:11 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "HumanA.hpp"
-#include "Weapon.hpp"
 
 
 	HumanA::HumanA(std::string name, Weapon &club) : _weapon(club) {   // : _weapon(club) default
@@ -26,7 +25,9 @@
 
 	void HumanA::attack(void) {
 
-		std::cout << this->_name << " attacks with their " << this->_weapon.getType() << std::endl;
+		std::cout << this->_name;
+		std::cout << " attacks with their ";
+		std::cout << this->_weapon.getType();
+		std::cout << std::endl;
 
-		
 	};
