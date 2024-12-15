@@ -6,7 +6,7 @@
 /*   By: nige42 <nige42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 12:48:07 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/15 18:29:53 by nige42           ###   ########.fr       */
+/*   Updated: 2024/12/15 18:37:30 by nige42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,12 +41,16 @@ std::string findReplace(std::string line, std::string toFind, std::string toRepl
 	(void)toReplace;
 	std::string newstr = line;
 	size_t pos = line.find(toFind);
+
+	if (toFind.empty())
+		return (line);
+	
 	while (pos < newstr.length()) {
 
 		
-		newstr = line.substr(0, pos) + toReplace + line.substr((pos + 4));
+		newstr = line.substr(0, pos) + toReplace + line.substr((pos + toFind.length()));
 		line = newstr;
-		pos = line.find("this");
+		pos = line.find(toFind);
 		
 	}
 	
