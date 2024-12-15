@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   OpenAndReplace.cpp                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nige42 <nige42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/13 10:03:55 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/13 13:33:18 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/14 18:27:52 by nige42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ int outputfile(std::ofstream *writefile, std::string file, std::string dotname) 
 	
 	writefile->open(filename.c_str());
 	if (writefile->is_open()) {
-		std::cout << "file created" << std::endl;
+		std::cout << "output file created" << std::endl;
 	}
 	else {
 		std::cout << "Error: file not created" << std::endl;
