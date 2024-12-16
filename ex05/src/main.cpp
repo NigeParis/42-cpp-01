@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 12:48:07 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/16 14:28:29 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/16 16:10:52 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,9 @@
 
 int main( void )
 {
+	Harl test;
+
+
+	test.complain("DEBUG");
 	return (0);
 }
