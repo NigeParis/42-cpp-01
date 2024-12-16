@@ -6,13 +6,13 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/13 10:03:55 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/16 09:34:05 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/16 09:48:22 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "OpenAndReplace.hpp"
 
-int openfile(std::ifstream *readfile, std::string file) {
+int openFile(std::ifstream *readfile, std::string file) {
 
 	if (!readfile) {
 		std::cout << "Error: Null pointer" << std::endl;
@@ -34,7 +34,7 @@ int openfile(std::ifstream *readfile, std::string file) {
 	return (1);
 }
 
-int outputfile(std::ofstream *writefile, std::string file, std::string dotname) {
+int outPutFile(std::ofstream *writefile, std::string file, std::string dotname) {
 
 	std::string filename;
 

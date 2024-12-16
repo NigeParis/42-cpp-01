@@ -40,7 +40,6 @@ clean:
 fclean: clean
 	@echo "FCLEAN all .o et .a files .......\n"
 	@rm -f $(NAME) > /dev/null
-	@rm -f *.replace  
 
 re: fclean all
 	@echo "All erased and re-compiled .......\n"		

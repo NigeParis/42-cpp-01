@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 12:48:07 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/16 09:34:30 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/16 09:48:22 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,8 @@ int main(int argc, char *argv[])
 	
 	if (!isArgsValid(argc, NBR_ARGS))
 		return (1);
-	if (openfile(&readfile, argv[FILE])) {
-		if (outputfile(&writefile, argv[FILE], ".replace")) {
+	if (openFile(&readfile, argv[FILE])) {
+		if (outPutFile(&writefile, argv[FILE], ".replace")) {
 	
 			while (readLine(&readfile, &line)) {
 	
