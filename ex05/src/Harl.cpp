@@ -6,14 +6,20 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/16 14:27:14 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/16 14:43:34 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/16 14:47:13 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Harl.hpp"\
+#include "Harl.hpp"
 
 
+Harl::Harl(void) {
+    
+};
 
+Harl::~Harl(void) {
 
+  
+};
 
 
