@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 12:48:07 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/17 14:39:32 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/17 14:49:31 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ Level strToLevel(std::string level) {
 
 int main(int argc,  char *argv[])
 {
-	Harl test;
+	Harl harl;
 	std::string input;
 	
 	if (argc == 2) {
@@ -46,31 +46,32 @@ int main(int argc,  char *argv[])
 
 			case DEBUG:
 		
-				test.complain("DEBUG");
-				test.complain("INFO");
-				test.complain("WARNING");
-				test.complain("ERROR");
+				harl.complain("DEBUG");
+				harl.complain("INFO");
+				harl.complain("WARNING");
+				harl.complain("ERROR");
 				break ;
 				
 			case INFO:
 			
-				test.complain("INFO");
-				test.complain("WARNING");
-				test.complain("ERROR");
+				harl.complain("INFO");
+				harl.complain("WARNING");
+				harl.complain("ERROR");
 				break ;
 				
 			case WARNING:
 				
-				test.complain("WARNING");
-				test.complain("ERROR");
+				harl.complain("WARNING");
+				harl.complain("ERROR");
 				break ;
 				
 			case ERROR:
 				
-				test.complain("ERROR");
+				harl.complain("ERROR");
 				break ;
 				
 			default:
+						
 				if (!input.empty()) {
 					std::cout << "[ Probably complaining about insignificant problems ]";
 					std::cout << std::endl;

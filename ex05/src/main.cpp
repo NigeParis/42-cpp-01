@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 12:48:07 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/17 13:49:02 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/17 14:56:44 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,14 @@
 
 int main( void )
 {
-	Harl test;
+	Harl harl;
 
-	test.complain("DEBUG");
-	test.complain("ERROR");
-	test.complain("INFO");
-	test.complain("WARNING");
-	test.complain("EXIST_PAS");
-	test.complain("");
-	//test.complain(NULL);
+	harl.complain("DEBUG");
+	harl.complain("ERROR");
+	harl.complain("INFO");
+	harl.complain("WARNING");
+	harl.complain("EXIST_PAS");
+	harl.complain("");
 
 	return (0);
 }
