@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/16 14:27:14 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/17 12:38:00 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/17 13:49:33 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,11 @@ void Harl::debug( void ) {
 void Harl::complain( std::string level ) {
 
     int i = 0;
+    
+    if (level.empty()) {
+        return ;
+    }
+
     std::string find[4] = {
 
         "DEBUG",
@@ -77,7 +82,7 @@ void Harl::complain( std::string level ) {
         if (find[i] == level)
             break ;
         i++;
-    }
+    } 
     if (i > 3)
         return ;
     return (this->*ptr[i])();
