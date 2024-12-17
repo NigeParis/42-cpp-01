@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/16 14:27:14 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/17 14:55:59 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/17 17:37:55 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,7 @@ void Harl::complain( std::string level ) {
     int i = 0;
     
     if (level.empty()) {
+    std::cout << "level ARG empty" << std::endl;
         return ;
     }
 
@@ -80,11 +81,10 @@ void Harl::complain( std::string level ) {
     while (i < 4) {
 
         if (find[i] == level)
-            break ;
+            return (this->*ptr[i])();
         i++;
     } 
-    if (i > 3)
-        return ;
-    return (this->*ptr[i])();
+    std::cout << "Level ARG not found" << std::endl;
+    return ;
 };
     

@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 12:48:07 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/17 14:49:31 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/17 17:42:00 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,43 +44,26 @@ int main(int argc,  char *argv[])
 		input = argv[1];
 		switch(strToLevel(input)) {
 
-			case DEBUG:
-		
-				harl.complain("DEBUG");
-				harl.complain("INFO");
-				harl.complain("WARNING");
-				harl.complain("ERROR");
-				break ;
+			case DEBUG: 	harl.complain("DEBUG");
 				
-			case INFO:
-			
-				harl.complain("INFO");
-				harl.complain("WARNING");
-				harl.complain("ERROR");
-				break ;
+			case INFO:		harl.complain("INFO");
 				
-			case WARNING:
+			case WARNING:	harl.complain("WARNING");
 				
-				harl.complain("WARNING");
-				harl.complain("ERROR");
-				break ;
-				
-			case ERROR:
-				
-				harl.complain("ERROR");
-				break ;
-				
+			case ERROR:		harl.complain("ERROR");
+							break;
 			default:
 						
 				if (!input.empty()) {
 					std::cout << "[ Probably complaining about insignificant problems ]";
 					std::cout << std::endl;
 				}
+				else
+					std::cout << "Error: empty arg " << argv[0] << " [ARG]" << std::endl;
 				break ;	
 		}
-
 	} 
 	else
-		std::cout << std::endl;
+		std::cout << "Error: missing arg " << argv[0] << " [ARG]"<< std::endl;
 	return (0);
 }
