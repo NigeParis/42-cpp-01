@@ -30,3 +30,16 @@ The true magic of these exercises lies in understanding how to allocate memory e
 **Forbidden Spells**: None! You’re free to unleash your creativity with no restrictions!
 
 Ready to dive into the world of C++ and create your horde of zombies? Let’s get coding and bring those zombies to life! 🧟‍♀️👻
+
+
+# Exercise 01: Moar Brainz! 🧟‍♂️🧠
+
+**Objective**: Summon a massive horde of zombies in this thrilling exercise! Get ready to unleash an army of the undead.
+
+To conjure up your terrifying legion, you need to implement the following magical function:
+
+```cpp
+Zombie* zombieHorde(int N, std::string name);
+
+
+
