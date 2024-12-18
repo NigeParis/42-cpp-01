@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/13 10:03:55 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/16 09:48:22 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/18 13:29:47 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,20 +63,19 @@ int outPutFile(std::ofstream *writefile, std::string file, std::string dotname) 
 
 std::string findReplace(std::string line, std::string toFind, std::string toReplace) {
 
-	(void)toFind;
-	(void)toReplace;
 	std::string newstr = line;
 	size_t pos = line.find(toFind);
+	size_t oldpos = 0;
 
 	if (toFind.empty())
 		return (line);
 	
-	while (pos < newstr.length()) {
-
+	while (pos < newstr.npos) {
 		
 		newstr = line.substr(0, pos) + toReplace + line.substr((pos + toFind.length()));
+		oldpos = pos + toReplace.length();
 		line = newstr;
-		pos = line.find(toFind);
+		pos = line.find(toFind, oldpos);
 		
 	}
 	
