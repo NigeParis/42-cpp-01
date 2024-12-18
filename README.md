@@ -71,6 +71,47 @@ Our program should print out the following:
 
 **Forbidden Spells**: None! You have complete creative freedom.
 
+## Exercise 03: Unnecessary Violence ⚔️
+
+## Objective
+The goal of this exercise is to master the art of implementing pointers and references, and understanding when each is most appropriate in various situations.
+
+## Step 1: Weapon Class
+First, we need to create a mighty **Weapon** class. This class requires:
+
+- A private string attribute **type**.
+- A `getType()` member function that returns a **const reference** to **type**.
+- A `setType()` member function that sets **type** using a new value passed as a parameter.
+
+## Step 2: HumanA and HumanB Classes
+Next, we will forge two powerful classes: **HumanA** and **HumanB**. These classes should include:
+
+- A **Weapon**.
+- A private string **name**.
+- An `attack()` member function that displays the battle cry:
+
+```cpp
+<name> attacks with their <weapon type>
+```
+
+
+### Differences Between HumanA and HumanB
+Although similar, **HumanA** and **HumanB** have key distinctions:
+
+- **HumanA**: Takes the **Weapon** in its constructor and will always have a weapon.
+- **HumanB**: Does not take the **Weapon** in its constructor and may not always have a weapon.
+
+## Files You’ll Need
+- **Makefile**: The enchanted spellbook that compiles your code.
+- **main.cpp**: The battlefield where your warriors come to life.
+- **Weapon.cpp**: The armory where you define your **Weapon** class.
+- **HumanA.cpp**: The training ground for **HumanA**.
+- **HumanB.cpp**: The training ground for **HumanB**.
+- **Weapon.hpp**: The ancient scroll containing the declarations of your **Weapon** class.
+- **HumanA.hpp**: The scroll for **HumanA**.
+- **HumanB.hpp**: The scroll for **HumanB**.
+
+**Forbidden Spells**: None! You're free to explore and innovate.
 
 
 
