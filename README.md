@@ -29,7 +29,6 @@ The true magic of these exercises lies in understanding how to allocate memory e
 
 **Forbidden Spells**: None! You’re free to unleash your creativity with no restrictions!
 
-Ready to dive into the world of C++ and create your horde of zombies? Let’s get coding and bring those zombies to life! 🧟‍♀️👻
 
 
 ## Exercise 01: Moar Brainz! 🧟‍♂️🧠
@@ -72,7 +71,6 @@ Our program should print out the following:
 
 **Forbidden Spells**: None! You have complete creative freedom.
 
-Let's get started and have some fun exploring the magical world of C++! 🌟
 
 
 
