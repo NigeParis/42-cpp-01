@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/12 09:11:05 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/12 13:33:46 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/18 09:01:30 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 Zombie* zombieHorde( int N, std::string name ) {
 
-	if (N < 1)
+	if (N < 1 || name.empty())
 		return (0);
 	Zombie *horde = new Zombie[N];
 

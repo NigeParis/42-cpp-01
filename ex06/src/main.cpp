@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 12:48:07 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/17 17:42:00 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/17 18:11:46 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,14 +44,15 @@ int main(int argc,  char *argv[])
 		input = argv[1];
 		switch(strToLevel(input)) {
 
-			case DEBUG: 	harl.complain("DEBUG");
-				
-			case INFO:		harl.complain("INFO");
-				
-			case WARNING:	harl.complain("WARNING");
-				
-			case ERROR:		harl.complain("ERROR");
-							break;
+			case DEBUG: 	
+				harl.complain("DEBUG");
+			case INFO:		
+				harl.complain("INFO");
+			case WARNING:	
+				harl.complain("WARNING");
+			case ERROR:		
+				harl.complain("ERROR");
+				break;
 			default:
 						
 				if (!input.empty()) {

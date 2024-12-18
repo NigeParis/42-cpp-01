@@ -6,35 +6,13 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 12:48:07 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/13 10:12:41 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/18 09:20:33 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "HumanA.hpp"
 #include "HumanB.hpp"
 #include "Weapon.hpp"
-
-
-void toTestErrors(void) {
-
-	{
-		Weapon club = Weapon("");
-		HumanA charly("charly", club);
-		charly.attack();
-		club.setType("some other type of club");
-		charly.attack();
-	}
-	{
-		Weapon club = Weapon("crude spiked club");
-		HumanB carl("");
-		carl.setWeapon(club);
-		carl.attack();
-		club.setType("some other type of club");
-		carl.attack();
-	}
-	
-}
-
 
 int main()
 {
@@ -53,6 +31,5 @@ int main()
 		club.setType("some other type of club");
 		jim.attack();
 	}
-	toTestErrors();
-	return 0;
+	return (0);
 }

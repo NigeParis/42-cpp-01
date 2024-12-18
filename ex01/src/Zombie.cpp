@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 13:08:54 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/12/12 13:28:36 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/12/18 09:07:01 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,7 @@ void Zombie::setName(std::string name) {
 };
 
 void Zombie::announce( void ) {
-
-	std::cout << this->_name << ": BraiiiiiiinnnzzzZ..." << std::endl;
+		std::cout << this->_name << ": BraiiiiiiinnnzzzZ..." << std::endl;
 };
 
 
