@@ -113,6 +113,52 @@ Although similar, **HumanA** and **HumanB** have key distinctions:
 
 **Forbidden Spells**: None! You're free to explore and innovate.
 
+## Exercise 04: Sed is for Losers 🚫
+
+**Objective**: Say goodbye to boring text replacements with Sed! Instead, let's create a program that takes three magical parameters: a filename and two strings, `s1` and `s2`. When executed, the program will open the file, copy its contents, and replace every occurrence of `s1` with `s2`. It's like performing a text replacement spell!
+
+## Files You’ll Need:
+- **Makefile**: The enchanted spellbook that compiles your code.
+- **main.cpp**: The mystical script where your text-replacing magic happens.
+
+**Forbidden Spells**: You must resist the temptation to use `std::string::replace`. We need to do this the old-fashioned, fun way!
+
+---
+
+## Exercise 05: Harl 2.0 🗣️
+
+**Objective**: Let's bring Harl to life with a program that features a class named **Harl**. This class will include the following private incantations (member functions):
+
+- **`void debug(void)`**: For when Harl is in a mellow mood.
+- **`void info(void)`**: When Harl has something interesting to share.
+- **`void warning(void)`**: When things start to get a bit dicey.
+- **`void error(void)`**: When Harl is in full panic mode.
+
+These functions represent the different levels of messages that Harl can communicate. Additionally, Harl will have a public spell:
+
+- **`void complain(std::string level)`**: This spell will invoke the correct function depending on the level passed as a parameter. The true magic here is learning to use pointers to member functions, so we can avoid a labyrinth of if/else statements!
+
+## Files You’ll Need:
+- **Makefile**: The enchanted spellbook that compiles your code.
+- **main.cpp**: The grand arena where Harl voices his thoughts.
+
+**Forbidden Spells**: None! Let your imagination run wild.
+
+---
+
+## Exercise 06: Harl Filter 🕵️‍♂️
+
+**Objective**: Get ready to filter out Harl's chatter! This exercise will help you create a refined version of Harl that only lets certain messages pass through. Details coming soon!
+
+## Files You’ll Need:
+- **Makefile**: The enchanted spellbook that compiles your code.
+- **main.cpp**: The stage where Harl's filtered messages will be revealed.
+
+**Forbidden Spells**: None! Feel free to get creative.
+
+---
+
+Dive into these exercises with enthusiasm and a sense of adventure. Happy coding! 🌟
 
 
 
