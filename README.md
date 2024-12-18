@@ -158,7 +158,4 @@ These functions represent the different levels of messages that Harl can communi
 
 ---
 
-Dive into these exercises with enthusiasm and a sense of adventure. Happy coding! 🌟
-
-
 
