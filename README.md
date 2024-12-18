@@ -40,6 +40,40 @@ To conjure up your terrifying legion, you need to implement the following magica
 
 ```cpp
 Zombie* zombieHorde(int N, std::string name);
+```
+
+## Exercise 02: HI THIS IS BRAIN 🧠🎉
+
+**Objective**: Dive into the fascinating world of C++ references and address pointers! Let's unravel the mysteries together.
+
+## Mission Brief:
+We need to create a program that showcases the difference between references and address pointers. Here's what you need to include in your code:
+
+1. **String Setup**:
+   - A string initialized to `"HI THIS IS BRAIN"`.
+
+2. **Pointers and References**:
+   - **`stringPTR`**: A pointer to our brainy string.
+   - **`stringREF`**: A reference to the same string.
+
+## The Program's Tasks:
+Our program should print out the following:
+
+1. The **memory address** of the string variable.
+2. The **memory address** held by `stringPTR`.
+3. The **memory address** held by `stringREF`.
+4. The **value** of the string variable.
+5. The **value** pointed to by `stringPTR`.
+6. The **value** pointed to by `stringREF`.
+
+## Files You’ll Need:
+- **Makefile**: The enchanted spellbook that compiles your code.
+- **main.cpp**: The grand stage where our references and pointers perform their magic.
+
+**Forbidden Spells**: None! You have complete creative freedom.
+
+Let's get started and have some fun exploring the magical world of C++! 🌟
+
 
 
 
