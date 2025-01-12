@@ -1,9 +1,9 @@
 # 42-cpp-01
-# Welcome to the Spooky World of C++! 🎃👻
+# Welcome to the Spooky World of C++!
 
 Say hello to **CPP Module 01**! It’s a magical collection of exercises to transport you into the enchanted realm of C++. Here, you’ll discover the secrets of memory allocation, unlock the mysteries of pointers to members, master the art of references, and conquer the powerful switch statements.
 
-## Exercise 00: BraiiiiiiinnnzzzZ 🧟‍♂️
+## Exercise 00: BraiiiiiiinnnzzzZ
 
 **Objective**: Bring the undead to life by creating a zombie class! Your mission, should you choose to accept it, includes:
 
@@ -31,7 +31,7 @@ The true magic of these exercises lies in understanding how to allocate memory e
 
 
 
-## Exercise 01: Moar Brainz! 🧟‍♂️🧠
+## Exercise 01: Moar Brainz!
 
 **Objective**: Summon a massive horde of zombies in this thrilling exercise! Get ready to unleash an army of the undead.
 
@@ -41,7 +41,7 @@ To conjure up your terrifying legion, you need to implement the following magica
 Zombie* zombieHorde(int N, std::string name);
 ```
 
-## Exercise 02: HI THIS IS BRAIN 🧠🎉
+## Exercise 02: HI THIS IS BRAIN
 
 **Objective**: Dive into the fascinating world of C++ references and address pointers! Let's unravel the mysteries together.
 
@@ -113,7 +113,7 @@ Although similar, **HumanA** and **HumanB** have key distinctions:
 
 **Forbidden Spells**: None! You're free to explore and innovate.
 
-## Exercise 04: Sed is for Losers 🚫
+## Exercise 04: Sed is for Losers 
 
 **Objective**: Say goodbye to boring text replacements with Sed! Instead, let's create a program that takes three magical parameters: a filename and two strings, `s1` and `s2`. When executed, the program will open the file, copy its contents, and replace every occurrence of `s1` with `s2`. It's like performing a text replacement spell!
 
@@ -125,7 +125,7 @@ Although similar, **HumanA** and **HumanB** have key distinctions:
 
 ---
 
-## Exercise 05: Harl 2.0 🗣️
+## Exercise 05: Harl 2.0
 
 **Objective**: Let's bring Harl to life with a program that features a class named **Harl**. This class will include the following private incantations (member functions):
 
@@ -146,7 +146,7 @@ These functions represent the different levels of messages that Harl can communi
 
 ---
 
-## Exercise 06: Harl Filter 🕵️‍♂️
+## Exercise 06: Harl Filter
 
 **Objective**: Get ready to filter out Harl's chatter! This exercise will help you create a refined version of Harl that only lets certain messages pass through. Details coming soon!
 
